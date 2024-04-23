@@ -1,9 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    // char ch[7]={'H','r','i','d','a','y'};
-    // printf("%s",ch);
-    char ch[7] = "Hridoy";
-    printf("%s", ch);
+    char ar[6];
+    for (int i = 0; i < 6; i++)
+    {
+        scanf("%c", &ar[i]);
+    }
+    for (int i = 0; i < 6; i++)
+    {
+        printf("%c", ar[i]);
+    }
     return 0;
 }
